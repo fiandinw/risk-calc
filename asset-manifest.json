@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.js": "/risk-calc/static/js/main.37cc5e4e.chunk.js",
+    "main.js.map": "/risk-calc/static/js/main.37cc5e4e.chunk.js.map",
+    "runtime-main.js": "/risk-calc/static/js/runtime-main.47078c59.js",
+    "runtime-main.js.map": "/risk-calc/static/js/runtime-main.47078c59.js.map",
+    "static/js/2.33d33a3d.chunk.js": "/risk-calc/static/js/2.33d33a3d.chunk.js",
+    "static/js/2.33d33a3d.chunk.js.map": "/risk-calc/static/js/2.33d33a3d.chunk.js.map",
+    "index.html": "/risk-calc/index.html",
+    "static/js/2.33d33a3d.chunk.js.LICENSE.txt": "/risk-calc/static/js/2.33d33a3d.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.47078c59.js",
+    "static/js/2.33d33a3d.chunk.js",
+    "static/js/main.37cc5e4e.chunk.js"
+  ]
+}
