@@ -26,8 +26,15 @@ function App() {
     setassettobuyprice('')
   }
 
+  const handleResetSome = () => {
+    setentry('')
+    setstoploss('')
+    setassettobuy('')
+    setassettobuyprice('')
+  }
+
   return (
-    <div className="container is-fluid" style={{paddingTop:"10vh"}}>
+    <div className="container is-fluid" style={{paddingTop:"5vh", paddingBottom:"15vh"}}>
       <div className="columns">
         <div className="column has-text-centered">
           <h1 className="title">Soheil PKO's 1% Rule Calculator</h1>
@@ -71,7 +78,10 @@ function App() {
               <button type="submit" className="button is-primary">Calculate</button>
             </div>
             <div className="control">
-              <button type="reset" className="button is-warning" onClick={handleReset}>Reset</button>
+              <button type="reset" className="button is-warning" onClick={handleResetSome}>Clear Price</button>
+            </div>
+            <div className="control">
+              <button type="reset" className="button is-danger" onClick={handleReset}>Reset All</button>
             </div>
           </div>
 
@@ -90,7 +100,6 @@ function App() {
               <input type="number" className="input" placeholder="Asset to buy (price)" value={assettobuyprice} readOnly/>
             </div>
           </div>
-
         </div>
       </div>
     </div>
